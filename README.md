@@ -1,19 +1,22 @@
-**AIM Technologies ML & NLP Task**
-**Arabic Dialect detector**
-# Use case: I was given a dataset of (IDs and dialect ) can be considered as Target values about 18 classes, and also
+# **AIM Technologies ML & NLP Task**
+# **Arabic Dialect detector**
+
+# Use case: 
+I was given a dataset of (IDs and dialect ) can be considered as Target values about 18 classes, and also
 was given a link to be used in Text fetching, each ID match a specific Text record.
-------------------------------------------------------------------------------------------------
-# My Solution: As I was requested in the task proposal, The task may be portioned into small processes
+
+# My Solution: 
+As I was requested in the task proposal, The task may be portioned into small processes
 1- Data Fetching Task
 2- Data Preprocessing Task
 3- Training Model using Traditional ML
 4- Deep Learning Model
 5- Model Deployment (Flask)
-------------------------------------------------------------------------------------------------
+
+
 So lets move forward by discussing each process mentioned above.
 
 # A. Data Fetching Task
-------------------------
 In this step their was an obvious challenges which is Using a large amount of data using POST request .
 I've solved this problem by creating a block of code iterate over the whole data, each iteration return 1000 text
 rows . Each Iteration was returning a dictionary of (ID and Text)
