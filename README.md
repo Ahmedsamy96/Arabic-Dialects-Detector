@@ -22,6 +22,7 @@ I've solved this problem by creating a block of code iterate over the whole data
 rows . Each Iteration was returning a dictionary of (ID and Text)
 After that I converted the final complete dictionary into a dataframe and merged it with the given dataset to
 finish this step with a Dataset of 458000 row (id, dialect or target, Text).
+
 **Trick**: To set the number of iteration I divided the number of rows of the given dataset by 1000 .
 
 
@@ -32,6 +33,7 @@ After looking at the dataframe many times I noticed the main issues, the data ha
     a- Emoji's (will not be useful for the model).
     b- An English word repeated many times in the text which is starting with (http).
     c- Converting the labels (dialect) to be numerical to be ready for the model training.
+    
 **Note**: I also showed up the classes balance to deal with this in the Model training task.
 
 
@@ -55,4 +57,3 @@ for the Deployment task (so the model can be better).
 # E. Model Deployment (Flask)
 I used Flask to get the user input, then tested it on the model weights ( .pkl for Naïve Bayes - .pt for the
 LSTM). And the predicted class is sent to another HTML page.
-This is my output:
