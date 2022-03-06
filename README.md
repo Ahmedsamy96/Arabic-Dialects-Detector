@@ -55,5 +55,5 @@ for the Deployment task (so the model can be better).
 
 
 # E. Model Deployment (Flask)
-I used Flask to get the user input, then tested it on the model weights ( .pkl for Naïve Bayes - .pt for the
+I used Flask to get the user input, then tested it on the model weights ( .pkl for Naïve Bayes - .h5 for the
 LSTM). And the predicted class is sent to another HTML page.
