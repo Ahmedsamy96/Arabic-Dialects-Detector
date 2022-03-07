@@ -57,3 +57,6 @@ for the Deployment task (so the model can be better).
 ## E. Model Deployment (Flask)
 I used Flask to get the user input, then tested it on the model weights ( .pkl for Naïve Bayes - .h5 for the
 LSTM). And the predicted class is sent to another HTML page.
+
+# Conclusion:
+- You can see that the accuracy of the model is not good enough To be honest, it's disastrous but you have to know that the model just trained on only 5 epochs, And each epoch take more than 2 hours because of the amount of data was not small at all, so I want to say that the model can give better accuracy if it was trained on more number of epochs. I also see that if we clustered the 18 classes into a lower number of classes by making it like : (Shami, Egyptian, Khalegi, etc) this would reduce the number of classes and this would be better for the model training. (I already worked at first on only 3 classes and the model's -naive Bayes- accuracy was about 86% but when worked on all the 18 classes it negatively affected the model But anyway the Proposal mentioned that they are 18 classes, so I wanted not to change the content of the work)
