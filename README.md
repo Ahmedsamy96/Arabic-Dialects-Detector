@@ -53,7 +53,9 @@ results )
 
 ## E. Model Deployment (Flask)
 - I used Flask to get the user input, then tested it on the model weights ( .pkl for Naïve Bayes - .h5 for the LSTM). And the predicted class is sent to another HTML page.
+
 ![Deployment](https://user-images.githubusercontent.com/29346634/157139981-7955e8c3-e8bf-4044-89d2-808667978217.PNG)
+![results](https://user-images.githubusercontent.com/29346634/157140122-563891c9-fb23-46ee-b57e-3df520359716.PNG)
 
 
 
