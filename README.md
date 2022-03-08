@@ -1,4 +1,4 @@
-# **AIM Technologies ML & NLP Task**
+# **AIM Technologies ML (NLP) Task**
 # **Arabic Dialect detector**
 
 # Use case: 
