@@ -30,9 +30,9 @@ finish this step with a Dataset of 458000 row (id, dialect or target, Text).
 - To perform preprocessing in this task was a challenge to clean Arabic languages for the first time not like the
 traditional ways of dealing with English text.
 - After looking at the dataframe many times I noticed the main issues, the data have to be clean of them:
-    a- Emoji's (will not be useful for the model).
-    b- An English word repeated many times in the text which is starting with (http).
-    c- Converting the labels (dialect) to be numerical to be ready for the model training.
+    a. Emoji's (will not be useful for the model).
+    b. An English word repeated many times in the text which is starting with (http).
+    c. Converting the labels (dialect) to be numerical to be ready for the model training.
     
 **Note**: I also showed up the classes balance to deal with this in the Model training task.
 
